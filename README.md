@@ -51,7 +51,7 @@ When we first time run this server, it may cause a little bit longer time to ins
  * For ChAI-Drop data, only Cluster VIew and Fragment View are avaiable. 
  * For RNAPII ChIA-Drop data, Cluster VIew, Fragment View, PE VIew and Extrusion View are all aviable.
 
-<img src="figures/CHIAVIEW_SCREENSHOT.001.jpeg" /> 
+<img src="CHIAVIEW_SCREENSHOT.001.jpeg" /> 
 
 ##  5. Parameter Adjust
 
@@ -63,7 +63,7 @@ When we first time run this server, it may cause a little bit longer time to ins
 
 * e.g. RNAP2 ChIA-Drop Demo data: type in "Demo_p2chiadrop"
 
-<img src="figures/CHIAVIEW_SCREENSHOT.002.jpeg"/> 
+<img src="CHIAVIEW_SCREENSHOT.002.jpeg"/> 
 
 ## 6. Input data format
 
