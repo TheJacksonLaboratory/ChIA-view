@@ -2,6 +2,8 @@
  
 # ChIA-view v1.0
 
+--coding by Simon Zhongyuan Tian
+
 • Demo	ChIA-view online: https://chia-view.shinyapps.io/ChIA-view-master/.
 
 *----a novel visualization pipeline for multiplex chromatin interactions*
