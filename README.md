@@ -1,5 +1,3 @@
-# ChIA-view-20191127_upload
- 
 # ChIA-view v1.0
 
 --coding by Simon Zhongyuan Tian
