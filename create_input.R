@@ -1,6 +1,6 @@
 
-IN="GAM001_COMBINED_SA.SUBGEM.bsv.gff.GEMLINE_OUT.tsv.BE2_FRAGNUM.Fragnum_PlinePgem.PlinePfrag.region"
-OUT="GAM001"
+IN="GT01_COMBINED_SA.SUBGEM.bsv.gff.GEMLINE_OUT.tsv.BE2_FRAGNUM.Fragnum_PlinePgem.PlinePfrag.LONGISO.E500B.region.PEanno"
+OUT="GT01"
 dir.create(OUT)
 ###########################
 dirname(rstudioapi::getActiveDocumentContext()$path)
@@ -11,11 +11,12 @@ str(FIN)
 CHR_LIST<-unique(FIN$V1)
 str(CHR_LIST)
 for(CHROM in CHR_LIST){
+  
+  subFIN = subset(FIN, FIN$V1 == CHROM)
   FILE01=paste0(CHROM,".tsv")
   file.remove(FILE01)
-  for (row in 1:nrow(FIN)){
-    if(FIN[row,1]==CHROM){write.table(FIN[row,],FILE01,sep = "\t",quote=FALSE,row.names=FALSE,col.names=FALSE,append = TRUE) }
-  }
+  write.table(subFIN,FILE01,sep = "\t",quote=FALSE,row.names=FALSE,col.names=FALSE,append = TRUE)
+  
 }
 
 for(CHROM in CHR_LIST){
